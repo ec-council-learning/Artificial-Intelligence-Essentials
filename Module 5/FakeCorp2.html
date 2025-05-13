@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>DocMeSign Document</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
+    .header {
+      background-color: #f5f5f5;
+      padding: 20px;
+      text-align: center;
+    }
+    .header img {
+      max-width: 200px;
+      height: auto;
+      border: 0;
+      display: block;
+      margin: 0 auto;
+    }
+    .content {
+      padding: 20px;
+      color: #000000;
+      line-height: 1.5;
+    }
+    .cta {
+      background-color: #0a66c2;
+      text-align: center;
+      padding: 20px;
+      margin: 20px;
+    }
+    .cta a {
+      background-color: #ffffff;
+      color: #000000;
+      text-decoration: none;
+      padding: 12px 25px;
+      font-weight: bold;
+      border-radius: 4px;
+      display: inline-block;
+    }
+    .footer {
+      background-color: #f5f5f5;
+      text-align: center;
+      padding: 15px;
+      font-size: 12px;
+      color: #777777;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <img src="https://i.ibb.co/8DYX4FbB/DocMesignLogo.png" alt="DocMeSign Logo">
+  </div>
+  <div class="content">
+    <p>Dear {{.FirstName}},</p>
+    <p>Thank you for using DocMeSign. We have prepared a document for your review and signature. Please find the details below.</p>
+    <p>If you have any questions or need further assistance, feel free to reach out to our support team.</p>
+  </div>
+  <div class="cta">
+    <a href="https://www.eicar.org/download/eicar-com/?wpdmdl=8840&refresh=67ec9043c28d21743556675">Access Document</a>
+  </div>
+  <div class="footer">
+    <p>&copy; 2025 DocMeSign. All rights reserved.</p>
+  </div>
+</body>
+</html>

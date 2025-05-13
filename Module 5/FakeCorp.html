@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>2025 Employee Handbook Updates - Signature Required</title>
+  <style type="text/css">
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    .container {
+      max-width: 600px;
+      margin: 20px auto;
+      background-color: #ffffff;
+      border: 1px solid #dddddd;
+      padding: 20px;
+    }
+    .header {
+      text-align: center;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+    .header img {
+      max-width: 200px;
+    }
+    .blue-box {
+      background-color: #0a66c2;
+      padding: 30px;
+      text-align: center;
+      margin: 20px 0;
+    }
+    .blue-box a.button {
+      display: inline-block;
+      background-color: #ffc107;
+      color: #000;
+      text-decoration: none;
+      padding: 12px 25px;
+      font-weight: bold;
+      border-radius: 4px;
+    }
+    .email-body p {
+      margin: 0 0 15px;
+      line-height: 1.5;
+      font-size: 16px;
+    }
+    .footer {
+      text-align: center;
+      font-size: 12px;
+      color: #777777;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header with DocMeSign logo -->
+    <div class="header">
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAeAAAAHgCAYAAABYkx7aAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH6QEIATwxbL3kMgAAA4NJREFUeNrs3QENgCAMBEBJ9T+x6rCJbYqE+vCXD5s7N1ljG4wI1gwAAAAAAAAAAAAAwGV/16XXHX3t/uZzjVQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4Jrxk0DDBAAAAAAAAAAAAAAAALjx88dVxwUgAAAAASUVORK5CYII=" alt="DocMeSign Logo">
+    </div>
+
+    <!-- Email body -->
+    <div class="email-body">
+      <p>Hello {{.FirstName}},</p>
+      <p>You have a document waiting for your signature through DocuSign. Please review and complete the signing process as soon as possible.</p>
+      <p><strong>Document Title:</strong> 2025 Employee Handbook</p>
+      <p><strong>Sent By:</strong> YourBoss@fakecorps.com</p>
+      <p>To access your document, click the button below:</p>
+    </div>
+
+    <div class="blue-box">
+      <a href="https://account.docusign.com/oauth/auth?response_type=code&scope=all%20click.manage%20me_profile%20room_forms%20room_fields%20inproductcommunication_read%20data_explorer_signing_insights%20notary_read%20notary_write%20search_read%20search_write%20webforms_manage%20dtr%20valmod_manage%20signature&client_id=2CC56DC9-4BCD-4B55-8AB0-8BA60BAE1065&redirect_uri=https%3A%2F%2Fapps.docusign.com%2Fauthenticate&state=%7B%22widgetId%22%3A%22%40ds%2Fsend%22%2C%22xsrfToken%22%3A%22S32lssEoWmUJEFLarzMKRogQy8705BwV2VJLOyFTgJL0%2Bs3yQSDIoLoxyUt7v7wF7ZZExlaJz1I15GdIQdhSgyMHidemqW%2B7dWhHSE8Ju9xQCIzJlrvdffb5d8FcAi1cOLTQcYUqmz8%2FpJJF29pOO2BuDy6tWHeziSmpJN8Y0ok%3D%22%2C%22redirectUri%22%3A%22%2Fsend%2Fauthentication%22%2C%22authTxnId%22%3A%220bbdbae9-3bce-4bbe-80c1-b773994040b8%22%7D" class="button">Access Document</a>
+    </div>
+
+    <div class="email-body">
+      <p>Please note that this document will be available until [Expiration Date]. After that, you will need to request a new link from the sender.</p>
+      <p>For any questions, please contact our support team at <a href="mailto:support@docusign.com" style="color:#ffc107; text-decoration:underline;">support@docusign.com</a>.</p>
+      <p>Thank you for using DocuSign.</p>
+      <p>Best regards,<br>The DocuSign Team</p>
+    </div>
+
+    <div class="footer">
+      <p>&copy; 2025 FakeCorp Inc. All rights reserved.</p>
+    </div>
+  </div>
+</body>
+</html>
