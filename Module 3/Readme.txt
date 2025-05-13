@@ -1,1 +1,1 @@
-
+The working versions of email classifier and domain analyzer programs from the Module 3 videos are included for the learners benefit.  Process the Nigerian Fraud file first through email classifier program to produce a cleansed data set. Then run the resulting file through domain analyzer to perform initial text, email and domain analysis in preparation for the Module 4 exercises
